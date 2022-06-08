@@ -23,39 +23,39 @@ const theme = createTheme({
   },
 });
 
-function TourCard() {
+function TourCard({ tour }) {
   return (
-    <Grid item xs={3}>
+    <Grid item xs={4}>
       <ThemeProvider theme={theme}>
         <Paper>
           <img
             className="img"
-            src="https://i0.wp.com/onedayitinerary.com/wp-content/uploads/2021/07/One-day-in-Kathmandu-itinerary.jpg?fit=800%2C600&ssl=1"
-            alt="Kathmandu"
+            src={tour.image}
+            alt={tour.name}
           />
           <Box paddingX={2}>
-            <Typography component="h7">Kathmandu</Typography>
+            <Typography component="h7">{tour.name}</Typography>
             <Box sx={{ display: "flex", alignItems: "center" }}>
               <AccessTime sx={{ width: 15 }} />
 
               <Typography variant="body2" component="p" marginLeft={1}>
-                5 Hours
+                {tour.duration} Hours
               </Typography>
             </Box>
             <Box sx={{ display: "flex", alignItems: "center", marginTop: 2 }}>
               <Rating
                 name="read-only"
-                value={3}
+                value={tour.rating}
                 readOnly
                 precision={0.5}
                 size="small"
               />
               <Typography variant="subtitle2" component="p" marginLeft={1}>
-                (3000 Reviews){" "}
+                ({tour.numberOfReviews})
               </Typography>
             </Box>
             <Box>
-              <Typography>Starts from $99</Typography>
+              <Typography>Starts from ${tour.price}</Typography>
             </Box>
           </Box>
         </Paper>

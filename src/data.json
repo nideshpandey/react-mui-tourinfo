@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "name": "Chitwan",
+      "tours": [
+        {
+          "id": 1,
+          "name": "Sauraha",
+          "duration": 5,
+          "rating": 4.5,
+          "numberOfReviews": 462,
+          "price": 399,
+          "image": "https://thehimalayantimes.com/uploads/imported_images/wp-content/uploads/2018/03/Sauraha.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Elephant Ride",
+          "duration": 1.5,
+          "rating": 3.5,
+          "numberOfReviews": 641,
+          "price": 59,
+          "image": "https://english.makalukhabar.com/wp-content/uploads/2021/02/1-1-Makalu-Khabar.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Jungle Safari",
+          "duration": 2,
+          "rating": 4.5,
+          "numberOfReviews": 133,
+          "price": 199,
+          "image": "https://www.rhinolandchitwan.com/images/jeepsafari/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pokhara",
+      "tours": [
+        {
+          "id": 4,
+          "name": "Fewa Tal",
+          "duration": 3,
+          "rating": 4.5,
+          "numberOfReviews": 462,
+          "price": 79,
+          "image": "https://static.toiimg.com/thumb/msid-57788630,width=1200,height=900/57788630.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Paragliding",
+          "duration": 1.5,
+          "rating": 4.5,
+          "numberOfReviews": 462,
+          "price": 59,
+          "image": "https://greatadventuretreks.com/wp-content/uploads/2017/03/Paragliding51-990x490.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Begnas Tal",
+          "duration": 3,
+          "rating": 3.5,
+          "numberOfReviews": 641,
+          "price": 199,
+          "image": "https://nepaltraveller.com/images/main/1611908148.sidetrackimage1024px-Begnas_Lake_Bhuwan.jpg"
+        }
+      ]
+    }
+  ]
